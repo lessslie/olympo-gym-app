@@ -9,8 +9,8 @@ const Header = () => {
     { name: 'Inicio', href: '#home' },
     { name: 'Nosotros', href: '#about' },
     { name: 'Ubicación', href: '#location' },
-    { name: 'Contacto', href: '#contact' },
     { name: 'Tienda', href: '#store' },
+    { name: 'Contacto', href: '#contact' },
   ];
 
   return (
