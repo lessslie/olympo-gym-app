@@ -1,0 +1,57 @@
+{
+  "name": "Gimnasio Olympo - Transforma Tu Cuerpo",
+  "short_name": "Olympo",
+  "description": "El gimnasio #1 de la ciudad. Entrena con los mejores equipos y entrenadores certificados.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141414",
+  "theme_color": "#F59E0B",
+  "orientation": "portrait-primary",
+  "categories": ["fitness", "health", "sports"],
+  "lang": "es",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Clases",
+      "short_name": "Clases",
+      "description": "Ver horarios de clases grupales",
+      "url": "/#classes",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contacto",
+      "short_name": "Contacto", 
+      "description": "Contactar con el gimnasio",
+      "url": "/#contact",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-mobile.jpg", 
+      "sizes": "375x667",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    }
+  ]
+}
